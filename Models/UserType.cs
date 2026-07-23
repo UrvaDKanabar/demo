@@ -11,6 +11,6 @@ namespace demo.Models
         [MaxLength(250)]
         public string Description { get; set; }= string.Empty;
 
-        public ICollection<User> Users { get; set; } = new List<User>();
+        public ICollection<User>? Users { get; set; }
     }
 }

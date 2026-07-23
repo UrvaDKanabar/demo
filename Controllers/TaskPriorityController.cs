@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace demo.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class TaskPriorityController : ControllerBase
     {
